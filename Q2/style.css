@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 231, 231);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,0fr);
+    grid-template-rows: 360px  380px  380p;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-left:50px;
+
+}
+.container div{
+  
+    background-color: #fff;
+    border: 1px solid rgb(192, 189, 189);
+}
+.grid{
+ margin: 10px;       
+}
+.container div img{
+    width: 380px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+}
+.p{
+    margin: 10px;
+}
+.h3{
+    margin: 10px;
+}
+.span{
+    padding:4px;
+    background-color: green;
+    color: white;
+}
+.containers{
+    margin-left: 25%;
+  
+}
+.cart{
+    width: 670px;
+    height: 320px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.cart h1{
+    text-align: center;
+    font-size: 60px;
+}
+.cart p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.btn1{
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+    font-family: cursive;
+}
+.btn2{
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    font-family: cursive;
+    font-size: 18px;
+}
+.banner
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+.row{
+    margin-top: 10px;
+
+
+}
+.right{
+    padding-left: 30px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 700px;
+    color: rgb(255, 251, 251);
+}
+.bottom span{
+ color: blue;
+}
+.bottom{
+    padding: 20px;
+}
